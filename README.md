@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Description
 
 Display now playing movies. Sort the movies by rate.
-Credit : The movie db API (https://developers.themoviedb.org/)
+Credit : [The movie db API](https://developers.themoviedb.org/)
 
 ### Tools
 

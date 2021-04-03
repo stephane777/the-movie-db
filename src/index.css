@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
 *,
 *::after,
 *::before {
@@ -10,6 +12,7 @@ html {
 	/* 1rem =10px; 10px/16px = 62.5% */
 	font-size: 62.5%;
 	height: 100%;
+	font-family: "Source Sans Pro", Arial, sans-serif;
 }
 body {
 	box-sizing: border-box;
@@ -18,24 +21,26 @@ body {
 }
 
 :root {
-	--color-primary: #1a3150;
-	--color-secondary: #96bd42;
-	--color-tertiary: #008891;
-	--color-quaternary: #e7e7de;
-
-	--color-grey-light-1: #faf9f9;
-	--color-grey-light-2: #f4f2f2;
-	--color-grey-light-3: #f0eeee;
-	--color-grey-light-4: #ccc;
-	--color-grey-light-5: #eee;
-
-	--color-grey-dark-1: #333;
-	--color-grey-dark-2: #666;
-	--color-grey-dark-3: #999;
-	--color-grey-dark-4: #bbb;
-
-	--color-white: #fff;
-	--color-twitter: #1ca9eb;
-	--color-facebook: #1b3353;
-	--color-google: #cb281e;
+	--scrollerGrey: rgb(219, 219, 219);
+	--lightGrey: rgb(227, 227, 227);
+	--darkerGrey: rgb(200, 200, 200);
+	--tmdbDarkBlue: rgb(3, 37, 65);
+	--tmdbLightBlue: rgb(1, 180, 228);
+	--tmdbLighterGreen: rgb(192, 254, 207);
+	--tmdbLightGreen: rgb(30, 213, 169);
+	--tmdbLogoGreen: rgb(144, 206, 161);
+	--tmdbLogoOrange: rgb(253, 193, 112);
+	--tmdbLogoRed: rgb(217, 59, 99);
+	--accountSilver: rgb(149, 149, 149);
+	--accountPink: rgb(234, 20, 140);
+	--accountPurple: rgb(128, 91, 231);
+	--accountGreen: rgb(1, 210, 119);
+	--accountTeal: rgb(1, 198, 172);
+	--accountLightBlue: rgb(1, 180, 228);
+	--accountBlue: rgb(1, 119, 210);
+	--accountOrange: rgb(210, 119, 1);
+	--accountYellow: rgb(210, 144, 1);
+	--accountRed: rgb(212, 2, 66);
+	--imageBorderRadius: 8px;
+	--maxPrimaryPageWidth: 1400px;
 }

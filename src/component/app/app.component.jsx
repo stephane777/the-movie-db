@@ -57,7 +57,7 @@ const App = () => {
 	const wrapper = (
 		<Container style={{ maxWidth: "1600px" }}>
 			<Row className="my-5 mx-0 fw-bold fs-5">
-				<h2>Now Playing Movies</h2>
+				<h2 style={{ fontSize: "3rem" }}>Now Playing Movies</h2>
 			</Row>
 			<Row className="d-flex justify-content-center mx-0">
 				<Col md="3">

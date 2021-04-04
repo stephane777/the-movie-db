@@ -15,7 +15,7 @@ const Movie = ({
 		index
 	)}`;
 	return (
-		<Card as={Col} xs="6" sm="4" md="4" lg="3" xl="2" className="m-3 p-0">
+		<Card as={Col} xs="8" sm="4" md="4" lg="3" xl="2" className="m-3 p-0">
 			<Card.Img variant="top" src={`${base_url}/${size}${file_path}`} />
 			<Card.Body>
 				<Card.Title className="mb-0">

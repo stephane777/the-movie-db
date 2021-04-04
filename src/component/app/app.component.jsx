@@ -9,10 +9,11 @@ const App = () => {
 	const [data, setData] = React.useState([]);
 	const [error, setError] = React.useState("");
 	const [loading, setLoading] = React.useState(false);
+	const [sortRating, setSortRating] = React.useState("Descending");
 
 	const URL = "https://www.themoviedb.org/movie/";
 
-	React.useState(() => {
+	React.useEffect(() => {
 		const getMovies = async () => {
 			try {
 				setLoading(true);
@@ -31,8 +32,9 @@ const App = () => {
 					data: { results },
 				} = await data;
 
-				console.log(results);
-				setData(results);
+				setData(
+					results.sort((a, b) => a.vote_average - b.vote_average).reverse()
+				);
 				setLoading(false);
 			} catch (e) {
 				setError(e.toString());
@@ -41,14 +43,25 @@ const App = () => {
 		getMovies();
 	}, []);
 
+	const handleSortRating = (e) => {
+		setSortRating(e.target.value);
+		console.log(e.target.value);
+
+		setData((data) => {
+			const sorted = data.sort((a, b) => a.vote_average - b.vote_average);
+			console.log(sorted);
+			return sortRating === "Descending" ? sorted : sorted.reverse();
+		});
+	};
+
 	const wrapper = (
 		<Container style={{ maxWidth: "1600px" }}>
-			<Row className="my-5 mx-0 fw-bold">
+			<Row className="my-5 mx-0 fw-bold fs-5">
 				<h2>Now Playing Movies</h2>
 			</Row>
 			<Row className="d-flex justify-content-center mx-0">
 				<Col md="3">
-					<Filter />
+					<Filter sortRating={sortRating} handleSortRating={handleSortRating} />
 				</Col>
 				<Col md="9">
 					<Row className="justify-content-center">

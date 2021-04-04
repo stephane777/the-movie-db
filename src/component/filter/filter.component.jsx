@@ -2,7 +2,7 @@ import React from "react";
 import { Card, Accordion, Form } from "react-bootstrap";
 import * as SF from "./filter.style";
 
-const Filter = () => {
+const Filter = ({ sortRating, handleSortRating }) => {
 	return (
 		<div className="filter">
 			<SF.AccordionWrapper defaultActiveKey="0" className="mt-3">
@@ -17,10 +17,15 @@ const Filter = () => {
 							<Form>
 								<Form.Group controlId="filter.sort">
 									<Form.Label>Rating</Form.Label>
-									<Form.Control as="select" custom>
+									<SF.FormControl
+										as="select"
+										custom
+										value={sortRating}
+										onChange={handleSortRating}
+									>
 										<option>Ascending</option>
 										<option>Descending</option>
-									</Form.Control>
+									</SF.FormControl>
 								</Form.Group>
 							</Form>
 						</Card.Body>

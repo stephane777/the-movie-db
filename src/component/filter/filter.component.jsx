@@ -1,15 +1,22 @@
 import React from "react";
-import { Card, Accordion, Form } from "react-bootstrap";
+import { Card, Accordion, Form, Button } from "react-bootstrap";
 import * as SF from "./filter.style";
+import { ReactComponent as Chevron } from "../../assets/img/chevronRight.svg";
 
-const Filter = ({ sortRating, handleSortRating }) => {
+const Filter = ({
+	newFilterSelected,
+	handleNewFilterSelected,
+	chevron,
+	setChevron,
+}) => {
 	return (
-		<div className="filter">
-			<SF.AccordionWrapper defaultActiveKey="0" className="mt-3">
+		<React.Fragment>
+			<SF.AccordionWrapper className="mt-3">
 				<Card>
 					<Card.Header className="p-0">
-						<SF.AccordionButton eventKey="0">
-							Sort Results by
+						<SF.AccordionButton eventKey="0" onClick={setChevron}>
+							Sort
+							<SF.StyledChevron chevron={chevron.toString()} />
 						</SF.AccordionButton>
 					</Card.Header>
 					<Accordion.Collapse eventKey="0">
@@ -20,8 +27,8 @@ const Filter = ({ sortRating, handleSortRating }) => {
 									<SF.FormControl
 										as="select"
 										custom
-										value={sortRating}
-										onChange={handleSortRating}
+										value={newFilterSelected}
+										onChange={handleNewFilterSelected}
 									>
 										<option>Ascending</option>
 										<option>Descending</option>
@@ -32,7 +39,7 @@ const Filter = ({ sortRating, handleSortRating }) => {
 					</Accordion.Collapse>
 				</Card>
 			</SF.AccordionWrapper>
-		</div>
+		</React.Fragment>
 	);
 };
 

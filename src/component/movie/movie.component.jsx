@@ -2,8 +2,8 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 import { RateCircle } from "../resusable/RateCircle/ratecircle.component";
 import * as SM from "./movie.style";
-
-// const URL = `https://www.themoviedb.org/t/p/w440_and_h660_face`
+import { formatDate } from "../resusable/utils";
+import PropTypes from "prop-types";
 const Movie = ({
 	data: {
 		poster_path: file_path,
@@ -15,13 +15,9 @@ const Movie = ({
 }) => {
 	const base_url = `https://image.tmdb.org/t/p`;
 	const size = `w500`;
-	const options = { weekday: "short", year: "numeric", day: "numeric" };
-	const newDateStr = new Date(release_date).toLocaleString("en-GB", options);
-	const index = newDateStr.length - 4;
 
-	const formattedDate = `${newDateStr.slice(0, index)}, ${newDateStr.slice(
-		index
-	)}`;
+	const formattedDate = formatDate(release_date);
+
 	return (
 		<SM.CardWrapper
 			as={Col}
@@ -32,7 +28,11 @@ const Movie = ({
 			xl="2"
 			className="m-3 p-0"
 		>
-			<Card.Img variant="top" src={`${base_url}/${size}${file_path}`} />
+			<Card.Img
+				variant="top"
+				src={`${base_url}/${size}${file_path}`}
+				alt={original_title}
+			/>
 			<RateCircle id={id} rate={vote_average}>
 				{`${vote_average * 10}%`}
 			</RateCircle>
@@ -52,5 +52,15 @@ const Movie = ({
 			</Card.Body>
 		</SM.CardWrapper>
 	);
+};
+
+Movie.propTypes = {
+	data: PropTypes.shape({
+		poster_path: PropTypes.string,
+		release_date: PropTypes.string.isRequired,
+		vote_average: PropTypes.number.isRequired,
+		original_title: PropTypes.string.isRequired,
+		id: PropTypes.number.isRequired,
+	}),
 };
 export { Movie };

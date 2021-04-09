@@ -3,10 +3,14 @@
 https://www.themoviedb.org/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Description
+### Description
 
 Display now playing movies. Sort the movies by rate.
 Credit : [The movie db API](https://developers.themoviedb.org/)
+
+### Overview
+
+![the movie db app](./src/assets/img/theMovieDBApp.png);
 
 ### Tools
 

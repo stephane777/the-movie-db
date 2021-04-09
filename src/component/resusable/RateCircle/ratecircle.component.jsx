@@ -1,5 +1,6 @@
 import React from "react";
 import * as SRC from "./ratecircle.style";
+import PropTypes from "prop-types";
 
 const degreesToRadians = (deg) => {
 	return (deg / 180) * Math.PI;
@@ -63,8 +64,7 @@ const drawPercentageCircle = (percentage, radius, canvas) => {
 const RateCircle = ({ id, rate, children }) => {
 	React.useEffect(() => {
 		const canvas = document.getElementById(id);
-
-		const ctx = canvas.getContext("2d");
+		// const ctx = canvas.getContext("2d");
 		const percentage = rate * 10;
 		let radius;
 		if (canvas.height < canvas.width) {
@@ -73,7 +73,7 @@ const RateCircle = ({ id, rate, children }) => {
 			radius = canvas.width / 3;
 		}
 		drawPercentageCircle(percentage, radius, canvas);
-	}, [id]);
+	}, []);
 	return (
 		<SRC.Wrapper>
 			<canvas id={id} width="60" height="60">
@@ -82,4 +82,10 @@ const RateCircle = ({ id, rate, children }) => {
 		</SRC.Wrapper>
 	);
 };
+
+RateCircle.propTypes = {
+	id: PropTypes.number.isRequired,
+	rate: PropTypes.number.isRequired,
+};
+
 export { RateCircle };

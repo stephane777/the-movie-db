@@ -5,7 +5,10 @@ import { v4 as uuidv4 } from "uuid";
 import { Movie } from "../movie";
 import { Filter } from "../filter";
 import { Banner } from "../banner";
+import { Footer } from "../footer";
 import { reducer } from "../../reducer";
+import { Loading } from "../loading";
+
 import * as SA from "./app.style";
 
 const initialState = {
@@ -18,6 +21,12 @@ const initialState = {
 };
 const App = () => {
 	const [state, dispatch] = React.useReducer(reducer, initialState);
+	/**
+	 * state.chevron : true means Sort is expanded, flase collapsed
+	 * state.newFilterSelected : help to compare if different from sortRating and handle Search btn status
+	 * state.sortRating : current filter applied in the UI
+	 */
+
 	const {
 		data,
 		loading,
@@ -26,15 +35,6 @@ const App = () => {
 		newFilterSelected,
 		chevron,
 	} = state;
-
-	// const [loading, setLoading] = React.useState(false);
-
-	// const [sortRating, setSortRating] = React.useState("Descending");
-	// const [newFilterSelected, setNewFilterSelected] = React.useState(
-	// 	"Descending"
-	// );
-	// chevron state : true means Sort is expanded, flase collapsed
-	// const [chevron, setChevron] = React.useState(false);
 
 	React.useEffect(() => {
 		const getMovies = async () => {
@@ -71,9 +71,6 @@ const App = () => {
 	const handleNewFilterSelected = (e) => {
 		console.log(`e.target.value: ${e.target.value}`);
 		dispatch({ type: "NEW_FILTER_SELECTED", direction: e.target.value });
-		// setNewFilterSelected((state) =>
-		// 	state === "Ascending" ? "Descending" : "Ascending"
-		// );
 	};
 	const handleSortRating = (e) => {
 		dispatch({ type: "SORT_RATING", direction: newFilterSelected });
@@ -82,7 +79,6 @@ const App = () => {
 
 	const wrapper = (
 		<React.Fragment>
-			<Banner />
 			<Container style={{ maxWidth: "1600px" }} className="px-0">
 				<Row className="my-5 mx-0">
 					<SA.Heading>Now Playing Movies</SA.Heading>
@@ -116,9 +112,12 @@ const App = () => {
 	return (
 		<div className="App">
 			<div>
-				{loading && <p>'loading ...'</p>}
+				<Banner />
+
+				{loading && <Loading />}
 				{error && <p>{error}</p>}
 				{!error && !loading && wrapper}
+				<Footer />
 			</div>
 		</div>
 	);

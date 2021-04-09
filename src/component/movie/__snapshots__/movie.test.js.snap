@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should match snapshot should match the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+      >
+        <img
+          alt="Godzilla vs. Kong"
+          class="card-img-top"
+          src="https://image.tmdb.org/t/p/w500/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+        />
+        <div
+          class="sc-bdvvaa fzHxCj"
+        >
+          <canvas
+            height="60"
+            id="399566"
+            style="background-color: transparent;"
+            width="60"
+          >
+            85%
+          </canvas>
+        </div>
+        <div
+          class="py-0 card-body"
+          style="transform: translateY(-25px);"
+        >
+          <div
+            class="mb-0 card-title h5"
+          >
+            <strong
+              style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+            >
+              Godzilla vs. Kong
+            </strong>
+          </div>
+          <p
+            class="card-text"
+          >
+            24 Wed , 2021
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+    >
+      <img
+        alt="Godzilla vs. Kong"
+        class="card-img-top"
+        src="https://image.tmdb.org/t/p/w500/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+      />
+      <div
+        class="sc-bdvvaa fzHxCj"
+      >
+        <canvas
+          height="60"
+          id="399566"
+          style="background-color: transparent;"
+          width="60"
+        >
+          85%
+        </canvas>
+      </div>
+      <div
+        class="py-0 card-body"
+        style="transform: translateY(-25px);"
+      >
+        <div
+          class="mb-0 card-title h5"
+        >
+          <strong
+            style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+          >
+            Godzilla vs. Kong
+          </strong>
+        </div>
+        <p
+          class="card-text"
+        >
+          24 Wed , 2021
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

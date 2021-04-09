@@ -1,0 +1,761 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SNAPSHOT Snapshot after fetching data from the movie db API 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div>
+          <div
+            class="banner"
+          >
+            <div
+              class="sc-gKckTs eSiOWf"
+            >
+              <div
+                class="sc-iCfLBT kvZXnL"
+              />
+            </div>
+          </div>
+          
+          <div
+            class="px-0 container"
+            style="max-width: 1600px;"
+          >
+            <div
+              class="my-5 mx-0 row"
+            >
+              <h2
+                class="sc-crHlIS eLSBAS"
+              >
+                Now Playing Movies
+              </h2>
+            </div>
+            <div
+              class="d-flex justify-content-center mx-0 row"
+            >
+              <div
+                class="d-flex flex-column align-items-center col-md-4"
+              >
+                <div
+                  class="sc-hKwCoD fmXqTB mt-3 accordion"
+                >
+                  <div
+                    class="card"
+                  >
+                    <div
+                      class="p-0 card-header"
+                    >
+                      <button
+                        class="sc-dkPtyc bQeeSs"
+                        type="button"
+                      >
+                        Sort
+                        <div
+                          class="sc-jRQAMF fyWpwA"
+                        />
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      data-testid="filter_list"
+                    >
+                      <div
+                        class="card-body"
+                      >
+                        <form
+                          class=""
+                        >
+                          <div
+                            class="form-group"
+                          >
+                            <label
+                              class="form-label"
+                              for="filter.sort"
+                            >
+                              Sort Results By
+                            </label>
+                            <select
+                              class="sc-eCImvq fNunTe"
+                            >
+                              <option>
+                                Ascending
+                              </option>
+                              <option>
+                                Descending
+                              </option>
+                            </select>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="sc-egiSv fxyaxp btn btn-primary"
+                  disabled=""
+                  type="button"
+                >
+                  Search
+                </button>
+              </div>
+              <div
+                class="col-md-8"
+              >
+                <div
+                  class="sc-bqiQRQ kjxIZB justify-content-start row"
+                >
+                  <div
+                    class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                  >
+                    <img
+                      alt="Godzilla vs. Kong"
+                      class="card-img-top"
+                      src="https://image.tmdb.org/t/p/w500/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+                    />
+                    <div
+                      class="sc-bdvvaa fzHxCj"
+                    >
+                      <canvas
+                        height="60"
+                        id="399566"
+                        style="background-color: transparent;"
+                        width="60"
+                      >
+                        85%
+                      </canvas>
+                    </div>
+                    <div
+                      class="py-0 card-body"
+                      style="transform: translateY(-25px);"
+                    >
+                      <div
+                        class="mb-0 card-title h5"
+                      >
+                        <strong
+                          style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                        >
+                          Godzilla vs. Kong
+                        </strong>
+                      </div>
+                      <p
+                        class="card-text"
+                      >
+                        24 Wed , 2021
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                  >
+                    <img
+                      alt="Raya and the Last Dragon"
+                      class="card-img-top"
+                      src="https://image.tmdb.org/t/p/w500/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
+                    />
+                    <div
+                      class="sc-bdvvaa fzHxCj"
+                    >
+                      <canvas
+                        height="60"
+                        id="527774"
+                        style="background-color: transparent;"
+                        width="60"
+                      >
+                        83%
+                      </canvas>
+                    </div>
+                    <div
+                      class="py-0 card-body"
+                      style="transform: translateY(-25px);"
+                    >
+                      <div
+                        class="mb-0 card-title h5"
+                      >
+                        <strong
+                          style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                        >
+                          Raya and the Last Dragon
+                        </strong>
+                      </div>
+                      <p
+                        class="card-text"
+                      >
+                        3 Wed , 2021
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                  >
+                    <img
+                      alt="Tom & Jerry"
+                      class="card-img-top"
+                      src="https://image.tmdb.org/t/p/w500/6KErczPBROQty7QoIsaa6wJYXZi.jpg"
+                    />
+                    <div
+                      class="sc-bdvvaa fzHxCj"
+                    >
+                      <canvas
+                        height="60"
+                        id="587807"
+                        style="background-color: transparent;"
+                        width="60"
+                      >
+                        74%
+                      </canvas>
+                    </div>
+                    <div
+                      class="py-0 card-body"
+                      style="transform: translateY(-25px);"
+                    >
+                      <div
+                        class="mb-0 card-title h5"
+                      >
+                        <strong
+                          style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                        >
+                          Tom & Jerry
+                        </strong>
+                      </div>
+                      <p
+                        class="card-text"
+                      >
+                        11 Thu , 2021
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-furvIG fGdDLR footer"
+          >
+            <footer
+              class="sc-pVTma cgLCRp"
+            >
+              <a
+                class="footer__link"
+                href="https://github.com/stephane777"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="sc-kDThTU kQYHNh"
+                >
+                  <use
+                    class="grid__icon-use"
+                    href="svg#icon-github"
+                  />
+                </svg>
+              </a>
+              <p
+                class="sc-jrQzUz ejAwAE"
+              >
+                Created by Stephane Candelas.
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div>
+        <div
+          class="banner"
+        >
+          <div
+            class="sc-gKckTs eSiOWf"
+          >
+            <div
+              class="sc-iCfLBT kvZXnL"
+            />
+          </div>
+        </div>
+        
+        <div
+          class="px-0 container"
+          style="max-width: 1600px;"
+        >
+          <div
+            class="my-5 mx-0 row"
+          >
+            <h2
+              class="sc-crHlIS eLSBAS"
+            >
+              Now Playing Movies
+            </h2>
+          </div>
+          <div
+            class="d-flex justify-content-center mx-0 row"
+          >
+            <div
+              class="d-flex flex-column align-items-center col-md-4"
+            >
+              <div
+                class="sc-hKwCoD fmXqTB mt-3 accordion"
+              >
+                <div
+                  class="card"
+                >
+                  <div
+                    class="p-0 card-header"
+                  >
+                    <button
+                      class="sc-dkPtyc bQeeSs"
+                      type="button"
+                    >
+                      Sort
+                      <div
+                        class="sc-jRQAMF fyWpwA"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="collapse"
+                    data-testid="filter_list"
+                  >
+                    <div
+                      class="card-body"
+                    >
+                      <form
+                        class=""
+                      >
+                        <div
+                          class="form-group"
+                        >
+                          <label
+                            class="form-label"
+                            for="filter.sort"
+                          >
+                            Sort Results By
+                          </label>
+                          <select
+                            class="sc-eCImvq fNunTe"
+                          >
+                            <option>
+                              Ascending
+                            </option>
+                            <option>
+                              Descending
+                            </option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="sc-egiSv fxyaxp btn btn-primary"
+                disabled=""
+                type="button"
+              >
+                Search
+              </button>
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="sc-bqiQRQ kjxIZB justify-content-start row"
+              >
+                <div
+                  class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                >
+                  <img
+                    alt="Godzilla vs. Kong"
+                    class="card-img-top"
+                    src="https://image.tmdb.org/t/p/w500/pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+                  />
+                  <div
+                    class="sc-bdvvaa fzHxCj"
+                  >
+                    <canvas
+                      height="60"
+                      id="399566"
+                      style="background-color: transparent;"
+                      width="60"
+                    >
+                      85%
+                    </canvas>
+                  </div>
+                  <div
+                    class="py-0 card-body"
+                    style="transform: translateY(-25px);"
+                  >
+                    <div
+                      class="mb-0 card-title h5"
+                    >
+                      <strong
+                        style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                      >
+                        Godzilla vs. Kong
+                      </strong>
+                    </div>
+                    <p
+                      class="card-text"
+                    >
+                      24 Wed , 2021
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                >
+                  <img
+                    alt="Raya and the Last Dragon"
+                    class="card-img-top"
+                    src="https://image.tmdb.org/t/p/w500/lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
+                  />
+                  <div
+                    class="sc-bdvvaa fzHxCj"
+                  >
+                    <canvas
+                      height="60"
+                      id="527774"
+                      style="background-color: transparent;"
+                      width="60"
+                    >
+                      83%
+                    </canvas>
+                  </div>
+                  <div
+                    class="py-0 card-body"
+                    style="transform: translateY(-25px);"
+                  >
+                    <div
+                      class="mb-0 card-title h5"
+                    >
+                      <strong
+                        style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                      >
+                        Raya and the Last Dragon
+                      </strong>
+                    </div>
+                    <p
+                      class="card-text"
+                    >
+                      3 Wed , 2021
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="sc-gsDJrp ldqsHQ m-3 p-0 col-xl-2 col-lg-3 col-md-4 col-sm-4 col-8"
+                >
+                  <img
+                    alt="Tom & Jerry"
+                    class="card-img-top"
+                    src="https://image.tmdb.org/t/p/w500/6KErczPBROQty7QoIsaa6wJYXZi.jpg"
+                  />
+                  <div
+                    class="sc-bdvvaa fzHxCj"
+                  >
+                    <canvas
+                      height="60"
+                      id="587807"
+                      style="background-color: transparent;"
+                      width="60"
+                    >
+                      74%
+                    </canvas>
+                  </div>
+                  <div
+                    class="py-0 card-body"
+                    style="transform: translateY(-25px);"
+                  >
+                    <div
+                      class="mb-0 card-title h5"
+                    >
+                      <strong
+                        style="font-family: 'Source Sans Pro', Arial, sansSerif; font-size: 1.6rem; font-weight: 700;"
+                      >
+                        Tom & Jerry
+                      </strong>
+                    </div>
+                    <p
+                      class="card-text"
+                    >
+                      11 Thu , 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-furvIG fGdDLR footer"
+        >
+          <footer
+            class="sc-pVTma cgLCRp"
+          >
+            <a
+              class="footer__link"
+              href="https://github.com/stephane777"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="sc-kDThTU kQYHNh"
+              >
+                <use
+                  class="grid__icon-use"
+                  href="svg#icon-github"
+                />
+              </svg>
+            </a>
+            <p
+              class="sc-jrQzUz ejAwAE"
+            >
+              Created by Stephane Candelas.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SNAPSHOT Snapshot before fetching data from the movie db API 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App"
+      >
+        <div>
+          <div
+            class="banner"
+          >
+            <div
+              class="sc-gKckTs eSiOWf"
+            >
+              <div
+                class="sc-iCfLBT kvZXnL"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-iqsfdx hJUCHA"
+          >
+            <div
+              class="spinner-border"
+              role="status"
+            >
+              <span
+                class="sr-only"
+              >
+                Loading ...
+              </span>
+            </div>
+          </div>
+          
+          <div
+            class="sc-furvIG fGdDLR footer"
+          >
+            <footer
+              class="sc-pVTma cgLCRp"
+            >
+              <a
+                class="footer__link"
+                href="https://github.com/stephane777"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="sc-kDThTU kQYHNh"
+                >
+                  <use
+                    class="grid__icon-use"
+                    href="svg#icon-github"
+                  />
+                </svg>
+              </a>
+              <p
+                class="sc-jrQzUz ejAwAE"
+              >
+                Created by Stephane Candelas.
+              </p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App"
+    >
+      <div>
+        <div
+          class="banner"
+        >
+          <div
+            class="sc-gKckTs eSiOWf"
+          >
+            <div
+              class="sc-iCfLBT kvZXnL"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-iqsfdx hJUCHA"
+        >
+          <div
+            class="spinner-border"
+            role="status"
+          >
+            <span
+              class="sr-only"
+            >
+              Loading ...
+            </span>
+          </div>
+        </div>
+        
+        <div
+          class="sc-furvIG fGdDLR footer"
+        >
+          <footer
+            class="sc-pVTma cgLCRp"
+          >
+            <a
+              class="footer__link"
+              href="https://github.com/stephane777"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="sc-kDThTU kQYHNh"
+              >
+                <use
+                  class="grid__icon-use"
+                  href="svg#icon-github"
+                />
+              </svg>
+            </a>
+            <p
+              class="sc-jrQzUz ejAwAE"
+            >
+              Created by Stephane Candelas.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
